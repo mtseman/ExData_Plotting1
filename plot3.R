@@ -29,7 +29,7 @@ par(old.par)
 
 #construct 3rd plot
 png(file="plot3.png", height=480, width=480)
-par(mar=c(4,2,2,1))
+par(mar=c(4,4,2,1))
 with(powerdata, plot(DateTime,Sub_metering_1,type="n", 
                      ylab = "Energy Sub Metering"))  
 with(powerdata, lines(DateTime,Sub_metering_1,col="Black"))
